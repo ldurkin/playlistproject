@@ -1,7 +1,10 @@
 body {
   background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
-  background-size: 3000px;
-  margin: 0px;
+  background-repeat: repeat;
+  background-position: center;
+  margin-right: 200px;
+  background-attachment: fixed;
+  background-size:auto;
 }
 
 h1, h2, h3, h4 {
@@ -19,11 +22,12 @@ p {
     margin: auto;
     padding: 25px;
     color: white;
+    display: inline-block;
 }
 
 .header {
     margin-top: 45px;
-    margin: auto;
-    color: white;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
