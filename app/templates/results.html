@@ -1,8 +1,12 @@
 <html>
+        <link rel="stylesheet" href="static/css/stylesheet.css" type="text/css" />
     <body>
         <h1>
-            Hey {{name}}! Here's your {{genre}} playlist. 
+            Hey {{name}}! 
         </h1>
-        <a href={{playlistlink}} > Here is your playlist! </a>
+        <a href={{playlistlink}} > Here's your {{genre}} playlist. </a>
+        <br></br>
+        <iframe src="{{embedlink}}" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
     </body>
 </html>

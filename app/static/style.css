@@ -13,12 +13,13 @@ p {
 }
 
 #form {
+    /*transform: translate(50px, 200px);*/
+    margin-top: 300px;
     background-color: #4D6E9F;
     border-color: #6154a7;
     border-radius: 25px;
-    margin: auto;
     padding: 25px;
-    color: white;
+    color: red;
 }
 
 .header {

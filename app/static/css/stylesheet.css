@@ -1,14 +1,11 @@
 body {
   background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
-  background-repeat: repeat;
-  background-position: center;
-  margin-right: 200px;
-  background-attachment: fixed;
-  background-size:auto;
+  background-size: 1700px;
 }
 
 h1, h2, h3, h4 {
     font-family: 'Raleway', sans-serif;
+    margin: 30px;
 }
 
 p {
@@ -16,18 +13,21 @@ p {
 }
 
 #form {
+    /*transform: translate(50px, 200px);*/
+    margin-left: 125px;
+    margin-right: 205px;
+    border-width: 20px;
+    transform: translate(50px, 100px);
     background-color: #4D6E9F;
     border-color: #6154a7;
     border-radius: 25px;
-    margin: auto;
     padding: 25px;
     color: white;
-    display: inline-block;
 }
 
 .header {
     margin-top: 45px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin: auto;
+    color: white;
 }
 

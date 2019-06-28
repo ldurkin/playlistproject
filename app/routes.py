@@ -16,5 +16,8 @@ def results():
         print(userdata)
         name = userdata['name']
         genre = userdata['genre']
-        playlistlink = model.findPlaylist(genre)
-        return render_template("results.html", name = name, genre = genre, playlistlink = playlistlink )
+        print(genre)
+        results = model.findPlaylist(genre)
+        playlistlink = results[0]
+        embedlink = results[1]
+        return render_template("results.html", name = name, genre = genre, playlistlink = playlistlink, embedlink=embedlink)
